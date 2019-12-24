@@ -36,11 +36,22 @@ $GRIDS
 -----*/
 /*-----$LAYOUTS-----*/
 section {
-  max-width: 1024px;
+  max-width: 800px;
   margin-left: auto;
   margin-right: auto;
-  background-color: #bfbfbf;
+  background-color: blue;
   padding: 24px; }
+  @media only screen and (min-width: 800px) {
+    section {
+      background-color: red; } }
+
+.max-width--huge {
+  max-width: 80%;
+  margin-left: auto;
+  margin-right: auto; }
+
+header {
+  background-color: #ea83ee; }
 
 /*-----
 $UTILITIES

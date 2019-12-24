@@ -25,3 +25,7 @@ Block element modifier
 ## Mixins
 
 Nos permiten reusar declaraciones e incluso modificar el valor cuando la reutilizamos
+
+## Content
+
+Directiva @content permiten incluir un bloque dentro de un mixin

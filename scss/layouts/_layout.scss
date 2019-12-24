@@ -1,6 +1,17 @@
 /*-----$LAYOUTS-----*/
 section {
   @include max-width;
-  background-color: $color-lightgrey;
+  background-color: blue;
+  @include respond-to(800px) {
+    background-color: red;
+  }
   padding: 24px;
+}
+
+.max-width--huge {
+  @include max-width(80%);
+}
+
+header {
+  background-color: $color-brand;
 }
