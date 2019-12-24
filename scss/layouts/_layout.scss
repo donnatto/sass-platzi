@@ -1,0 +1,6 @@
+/*-----$LAYOUTS-----*/
+section {
+  @include max-width;
+  background-color: $color-lightgrey;
+  padding: 24px;
+}
